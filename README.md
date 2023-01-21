@@ -1,6 +1,5 @@
 - 👋 Hi, I’m Mike Matovu
-- 👀 I’m interested in Cyber Security and Blockchain
-- 🌱 I’m currently learning a lot of things
+- 👀 I’m interested in Artificial Intelligence and Blockchain
 - 💞️ I’m looking to collaborate on Blockchain projects
 - 📫 
 
