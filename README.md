@@ -1,18 +1,101 @@
 <h1 align="center">Hey 👋, I'm Mike</h1>
-<h3 align="center">A Software developer from Uganda</h3>
+<h3 align="center">A Software engineer from Uganda</h3>
 
-- 💬 Ask me about **Android, Desktop and Web-development**
+# mike.go
 
-<p>Contact me</p>
-<p align="left" title ="">- 📫<a href="mailTo:natovumike44@gmail.com" target="blank">E-mail..<img src="https://pngimg.com/uploads/gmail_logo/gmail_logo_PNG4.png" alt="Telegram"width="20" height="16"></a></p>
-<p align="left">- 📫<a href="" target="blank">Telegram..<img src="https://pngimg.com/uploads/telegram/telegram_PNG35.png" alt="Telegram"width="20" height="18"></a></p>
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://developer.android.com" target="_blank" rel="noreferrer"> 
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="android" width="40" height="40"/> </a> <a href="https://www.arduino.cc/" target="_blank" rel="noreferrer"> 
+Welcome to my GitHub repository
+
+```go
+package main
+
+import (
+	"fmt"
+	"time"
+)
+
+// Contact information
+type Contact struct {
+	Email    string
+	LinkedIn string
+	GitHub   string
+}
+
+type Skills struct {
+	JavaScript     bool
+	NextJS         bool
+	ReactNative    bool
+	Python         bool
+	Django         bool
+	Kotlin         bool
+	JetpackCompose bool
+}
+
+func introduction(name string) {
+	fmt.Printf("Hello, my name is %s!\n", name)
+}
 
 
-<h3 align="left">Mostly used languages:</h3></p>
-<p align="left">
-<a href="https://kotlinlang.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg" alt="kotlin" width="40" height="40"/> </a><a 
-</p>
+func showSkills(skills Skills) {
+	fmt.Println("Here are my skills:")
+	if skills.JavaScript {
+		fmt.Println("- JavaScript")
+	}
+	if skills.NextJS {
+		fmt.Println("- Next.js (a framework of JavaScript)")
+	}
+	if skills.ReactNative {
+		fmt.Println("- React Native")
+	}
+	if skills.Python {
+		fmt.Println("- Python")
+	}
+	if skills.Django {
+		fmt.Println("- Django")
+	}
+	if skills.Kotlin {
+		fmt.Println("- Kotlin")
+	}
+	if skills.JetpackCompose {
+		fmt.Println("- Jetpack Compose")
+	}
+}
+
+func funFacts() {
+	facts := []string{
+		"I love coding!",
+		"I'm a coffee enthusiast.",
+		"I enjoy solving complex problems.",
+		"I'm a lifelong learner.",
+	}
+
+	for _, fact := range facts {
+		go func(f string) {
+			fmt.Println(f)
+		}(fact)
+	}
+
+	time.Sleep(1 * time.Second)
+}
+
+func main() {
+	name := "Mike"
+
+	skills := Skills{
+		JavaScript:     true,
+		NextJS:         true,
+		ReactNative:    true,
+		Python:         true,
+		Django:         true,
+		Kotlin:         true,
+		JetpackCompose: true,
+	}
+
+	introduction(name)
+	showSkills(skills)
+	funFacts()
+}
+
+```
+
+
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=MikeMatovu&" alt="Mike" /></p>
