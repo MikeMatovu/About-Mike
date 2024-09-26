@@ -3,10 +3,6 @@
 
 I love building projects using JS/TS/Go/Kotlin/Python
 
-# Here are some of my last listened to songs
-![Alt text](https://spotify-recently-played-readme.vercel.app/api?user=tfh6gdnez5201t3tlyw398vx1)
-
-
  #### Checkout my Portfolio : https://matovumike.vercel.app
 
 #### Please follow me on Socials
